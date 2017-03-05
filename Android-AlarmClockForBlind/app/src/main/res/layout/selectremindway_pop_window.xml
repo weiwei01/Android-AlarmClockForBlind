@@ -37,7 +37,7 @@
             android:layout_marginTop="10dp"
             android:drawableRight="@null"
             android:gravity="center"
-            android:text="@string/ring"
+            android:text="@string/ringsound"
             android:textColor="@color/black_33"
             android:textSize="20sp" />
 

@@ -1,6 +1,7 @@
 package com.weiwei01.alarmmanager.clock;
 
 import android.content.DialogInterface;
+import android.media.Ringtone;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,6 +21,11 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+import static com.weiwei01.alarmmanager.clock.R.string.ringsound;
+import static com.weiwei01.alarmmanager.clock.R.string.ringeveryday;
+import static com.weiwei01.alarmmanager.clock.R.string.ringonce;
+import static com.weiwei01.alarmmanager.clock.R.string.vibration;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private TextView hour_choose_btn, minute_choose_btn;
@@ -118,12 +124,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     private void listMinutes(){
         new AlertDialog.Builder(MainActivity.this)
-                .setTitle("請選擇分鐘")
+                .setTitle(getString(R.string.pleasechooseminutes))
                 .setItems(minutesList.toArray(new String[minutesList.size()]), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         String name = minutesList.get(which);
-                        Toast.makeText(getApplicationContext(), "您選擇的是" + name + "分", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), getString(R.string.youchose) +" "+ name + " " + getString(R.string.minutes), Toast.LENGTH_SHORT).show();
                         minutes = name;
                     }
                 })
@@ -131,12 +137,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     private void listHours(){
         new AlertDialog.Builder(MainActivity.this)
-                .setTitle("請選擇小時")
+                .setTitle(getString(R.string.pleasechoosehours))
                 .setItems(hoursList.toArray(new String[hoursList.size()]), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         String name = hoursList.get(which);
-                        Toast.makeText(getApplicationContext(), "您選擇的是" + name + "點", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), getString(R.string.youchose)  +" "+ name  +" "+ getString(R.string.hours), Toast.LENGTH_SHORT).show();
                         hours = name;
                     }
                 })
@@ -165,24 +171,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void setClock() {
+        String alarmring = getString(R.string.alarmring);
         time = hours + ":" + minutes;
         if (time != null && time.length() > 0) {
             String[] times = time.split(":");
             if (cycle == 0) {//是每天的闹钟
                 AlarmManagerUtil.setAlarm(this, 0, Integer.parseInt(times[0]), Integer.parseInt
-                        (times[1]), 0, 0, "鬧鐘響了", ring);
+                        (times[1]), 0, 0, alarmring, ring);
             } if(cycle == -1){//是只响一次的闹钟
                 AlarmManagerUtil.setAlarm(this, 1, Integer.parseInt(times[0]), Integer.parseInt
-                        (times[1]), 0, 0, "鬧鐘響了", ring);
+                        (times[1]), 0, 0, alarmring, ring);
             }else {//多选，周几的闹钟
                 String weeksStr = parseRepeat(cycle, 1);
                 String[] weeks = weeksStr.split(",");
                 for (int i = 0; i < weeks.length; i++) {
                     AlarmManagerUtil.setAlarm(this, 2, Integer.parseInt(times[0]), Integer
-                            .parseInt(times[1]), i, Integer.parseInt(weeks[i]), "鬧鐘響了", ring);
+                            .parseInt(times[1]), i, Integer.parseInt(weeks[i]), alarmring, ring);
                 }
             }
-            Toast.makeText(this, hours + "點" + minutes + "分 " +"鬧鐘設置成功", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, hours + getString(R.string.hours) + " " + minutes + getString(R.string.minutes) +" "+ getString(R.string.alarmsettingsuccessful), Toast.LENGTH_LONG).show();
 
         }
 
@@ -234,12 +241,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         fp.dismiss();
                         break;
                     case 8:
-                        tv_repeat_value.setText("每天");
+                        tv_repeat_value.setText(ringeveryday);
                         cycle = 0;
                         fp.dismiss();
                         break;
                     case 9:
-                        tv_repeat_value.setText("只響一次");
+                        tv_repeat_value.setText(ringonce);
                         cycle = -1;
                         fp.dismiss();
                         break;
@@ -262,12 +269,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 switch (flag) {
                     // 震动
                     case 0:
-                        tv_ring_value.setText("震动");
+                        tv_ring_value.setText(vibration);
                         ring = 0;
                         break;
                     // 铃声
                     case 1:
-                        tv_ring_value.setText("鈴聲");
+                        tv_ring_value.setText(R.string.ringsound);
                         ring = 1;
                         break;
                     default:

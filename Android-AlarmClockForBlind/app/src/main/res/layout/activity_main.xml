@@ -17,7 +17,7 @@
         android:gravity="center"
         android:paddingBottom="8dp"
         android:paddingTop="8dp"
-        android:text="選擇小時"
+        android:text="@string/pleasechoosehours"
         android:layout_weight="0.08" />
 
     <TextView
@@ -28,7 +28,7 @@
         android:gravity="center"
         android:paddingBottom="8dp"
         android:paddingTop="8dp"
-        android:text="選擇分鐘"
+        android:text="@string/pleasechooseminutes"
         android:layout_weight="0.08" />
 
     <TextView
@@ -46,7 +46,7 @@
             android:id="@+id/tv_repeat"
             style="@style/item_text_style"
             android:layout_alignParentLeft="true"
-            android:text="重覆"/>
+            android:text="@string/repeat"/>
 
         <TextView
             android:id="@+id/arrow_one"
@@ -82,7 +82,7 @@
             android:id="@+id/ring_tv"
             style="@style/item_text_style"
             android:layout_alignParentLeft="true"
-            android:text="鈴聲"/>
+            android:text="@string/ringsound"/>
 
         <TextView
             android:id="@+id/arrow_two"
@@ -116,6 +116,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:text="確定"/>
+        android:text="@string/cycle_sure"/>
 
 </LinearLayout>

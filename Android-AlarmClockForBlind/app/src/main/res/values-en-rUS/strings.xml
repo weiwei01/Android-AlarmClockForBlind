@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Friendly Alarm for Blind</string>
+    <string name="mon">Monday</string>
+    <string name="tue">Tuesday</string>
+    <string name="wed">Wednesday</string>
+    <string name="thu">Thursday</string>
+    <string name="fri">Friday</string>
+    <string name="sat">Saturday</string>
+    <string name="sun">Sunday</string>
+    <string name="cycle_sure">Accept</string>
+    <string name="vibration">Vibration</string>
+    <string name="ringsound">Ringtone</string>
+    <string name="repeat">Repeat</string>
+    <string name="notify">Ring</string>
+    <string name="ringonce">Ring once</string>
+    <string name="ringeveryday">Ring everyday</string>
+
+    <string name="alarmring">alrarm is ringing</string>
+    <string name="hours">hours</string>
+    <string name="minutes">minutes</string>
+    <string name="alarmsettingsuccessful">alarm is setted</string>
+    <string name="pleasechoosehours">please choose hours</string>
+    <string name="pleasechooseminutes">please choose minutes</string>
+    <string name="youchose">What you chose is</string>
+</resources>

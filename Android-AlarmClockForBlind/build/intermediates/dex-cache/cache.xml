@@ -3,12 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.bigkoo\pickerview\2.0.8\jars\classes.jar"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f3f00bb9cdb0a14b0db183427d227bfd78b29ec2">
-        <dex dex="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.bigkoo-pickerview-2.0.8_0fc3a29a146881b6c0d2ad195981392badabd263\classes.dex" />
+        sha1="3c205b4cd2fc8eac7a4bc38f8cc010d2a7b28e61">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_147229b15185d10f583d9c1a17c8b563a2999a61\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -21,30 +21,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Linus\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.bigkoo\pickerview\2.0.8\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_372913b753c6ea014f76ac6e16f60edb5669fa42\classes.dex" />
+        sha1="f3f00bb9cdb0a14b0db183427d227bfd78b29ec2">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.bigkoo-pickerview-2.0.8_c56ee4e5cea81a161c76cc2929dac40cb48e87f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-23.4.0_464494232903b43d3fce79d027f7fd2e572013e0.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_0ac96f50bdb673833826a434b3e5214650c5ab35\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="87b25cb0d83ea50c3954b114c4de369fd6129e94">
-        <dex dex="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ced5879b278f4ad9571cd8747265cd28254ff856\classes.dex" />
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_464494232903b43d3fce79d027f7fd2e572013e0\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -54,15 +54,6 @@
         revision="25.0.2"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
         <dex dex="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_2497eca5c5f96edca6fbc92f16385069858bb1da\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="308e3c6a9efba94f18178621572d2b10c2ba3267">
-        <dex dex="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ab75bb818efdaa3a3a8f706dbfa9fbcfb8823b45\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -81,6 +72,159 @@
         revision="25.0.2"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
         <dex dex="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_3aa79b0e786d0d4a1197cdd8d222fb874feac8d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="523c8d0b794d2e542a0d4e98d0d4c50a9c2ef395">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2b988905171710a9397a88b61f2abdb9602ae877\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.bigkoo\pickerview\2.0.8\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3f00bb9cdb0a14b0db183427d227bfd78b29ec2">
+        <dex dex="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.bigkoo-pickerview-2.0.8_0fc3a29a146881b6c0d2ad195981392badabd263\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-23.4.0_6c7f1de298fcc40d0011f6049b3ac36f045e5437.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_be6ff0654ddcdb9200edb9196700f70e7d3460a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\pre-dexed\release\internal_impl-23.4.0_be6ff0654ddcdb9200edb9196700f70e7d3460a4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_f50a64d4cd8835aa49a47086f78896cf796cb255\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_6c7f1de298fcc40d0011f6049b3ac36f045e5437\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.4.0_f50a64d4cd8835aa49a47086f78896cf796cb255.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Linus\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_372913b753c6ea014f76ac6e16f60edb5669fa42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_d41c75990e755772c552da77da3cfe896d44763d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_0ac96f50bdb673833826a434b3e5214650c5ab35\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.4.0_d41c75990e755772c552da77da3cfe896d44763d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="87b25cb0d83ea50c3954b114c4de369fd6129e94">
+        <dex dex="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ced5879b278f4ad9571cd8747265cd28254ff856\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\com.bigkoo\pickerview\2.0.8\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3f00bb9cdb0a14b0db183427d227bfd78b29ec2">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\pre-dexed\release\com.bigkoo-pickerview-2.0.8_c56ee4e5cea81a161c76cc2929dac40cb48e87f8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="308e3c6a9efba94f18178621572d2b10c2ba3267">
+        <dex dex="D:\workspace\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ab75bb818efdaa3a3a8f706dbfa9fbcfb8823b45\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\exploded-aar\Android-AlarmClockForBlind\alarmmanagerclock\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="40d6b6bf358014a8bab057a63eba4f38a65727ab">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\pre-dexed\release\Android-AlarmClockForBlind-alarmmanagerclock-unspecified_a1c457b259e17e22fd4be4b38fccebe0ba556533.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Linus\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\workspace\Android\Android-AlarmClockForBlind\Android-AlarmClockForBlind\app\build\intermediates\pre-dexed\release\support-annotations-23.4.0_372913b753c6ea014f76ac6e16f60edb5669fa42.jar" />
     </item>
 
 </items>

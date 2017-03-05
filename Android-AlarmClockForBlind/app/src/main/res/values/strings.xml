@@ -9,5 +9,21 @@
     <string name="sun">周日</string>
     <string name="cycle_sure">確定</string>
     <string name="vibration">震動</string>
-    <string name="ring">鈴聲</string>
+    <string name="ringsound">鈴聲</string>
+    <string name="repeat">重覆</string>
+    <string name="notify">鈴聲</string>
+    <string name="ringonce">只響一次</string>
+    <string name="ringeveryday">每天都響</string>
+
+
+    <string name="alarmring">鬧鐘響了</string>
+    <string name="hours">時</string>
+    <string name="minutes">分</string>
+    <string name="alarmsettingsuccessful">鬧鐘設置成功</string>
+    <string name="pleasechoosehours">請選擇小時</string>
+    <string name="pleasechooseminutes">請選擇分鐘</string>
+    <string name="youchose">您選擇的是</string>
+
+
+
 </resources>
